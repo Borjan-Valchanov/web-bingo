@@ -1,1 +1,2 @@
-# web-bingo
+# Bingo (Web)
+Siehe http://arkustangus.ml/
