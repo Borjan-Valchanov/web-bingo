@@ -3,10 +3,6 @@ function bingoTemplate(name, quotes) {
 	this.quotes = quotes;
 }
 
-bingoTemplateConstructor = {
-
-}
-
 herrman_quotes = [
 	"Also ich will dass wir wollen",
 	"Die Lösung bietet uns der Taschenrechner",
