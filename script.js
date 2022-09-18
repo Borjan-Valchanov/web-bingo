@@ -24,7 +24,8 @@ herrman_quotes = [
 	"Kein Bodyshaming",
 	"Nach Sek 1 Verordnung...",
 	"Quatsch mit Soße",
-	"Jurij, Mütze."
+	"Jurij, Mütze.",
+	"Wir begeben uns an unsere Plätze"
 ];
 
 hoffmann_quotes = [
@@ -61,7 +62,7 @@ function MainScreen() {
 	
 	var githubLink = document.createElement("a");
 	githubLink.className = "github-link";
-	githubLink.href = "https://github.com/Borjan-Valchanov/web-bingo/";
+	githubLink.href = "https://github.com/Borjan-Valchanov/bingo/";
 	githubLink.innerHTML = "Zum GitHub-Projekt";
 	buttonArea.appendChild(githubLink);
 
@@ -121,7 +122,7 @@ function BingoDialog(quotes) {
 
 	var githubLink = document.createElement("a");
 	githubLink.className = "github-link";
-	githubLink.href = "https://github.com/Borjan-Valchanov/web-bingo/";
+	githubLink.href = "https://github.com/Borjan-Valchanov/bingo/";
 	githubLink.innerHTML = "Zum GitHub-Projekt";
 	dialog.appendChild(githubLink);
 
@@ -176,6 +177,12 @@ function StartBingo(size, quotes) {
 		}
 		bingo.appendChild(layer);
 	}
+
+	var githubLink = document.createElement("a");
+	githubLink.className = "github-link";
+	githubLink.href = "https://github.com/Borjan-Valchanov/bingo/";
+	githubLink.innerHTML = "Zum GitHub-Projekt";
+	bingo.appendChild(githubLink);
 
 	document.body.appendChild(bingo);
 }
