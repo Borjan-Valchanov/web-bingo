@@ -17,14 +17,14 @@ herrman_quotes = [
 	"Die Damen und Herren",
 	"Ruge, Handy.",
 	"Viel Spaß im nachfolgenden Programm",
-	"Eine$nornot$ kleine$nornot$, niedliche$nornot$, feine$nornot$...",
+	"Eine$nornot$ kleine$nornot$, feine$nornot$, niedliche$nornot$...",
 	"Moppelkotze",
 	"Ja, aber habt ihr von mir etwas anderes erwartet?",
 	"$name$, Essen weg",
 	"Wir wollen vergleichen",
 	"Wir befinden uns in der Situation, dass...",
 	"Kein Bodyshaming",
-	"Nach Sek 1 Verordnung...",
+	"Nach Sek-I-Verordnung...",
 	"Quatsch mit Soße",
 	"Jurij, Mütze.",
 	"Wir begeben uns an unsere Plätze",
@@ -205,7 +205,7 @@ function StartBingo(size, quotes, randomInsertLookup) {
 
 	var githubLink = document.createElement("a");
 	githubLink.className = "github-link";
-	githubLink.href = "https://github.com/Borjan-Valchanov/bingo/";
+	githubLink.href = "https://github.com/Borjan-Valchanov/web-bingo/";
 	githubLink.innerHTML = "Zum GitHub-Projekt";
 	bingo.appendChild(githubLink);
 
